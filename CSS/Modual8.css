@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header start  */
+.main1{
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.ul1{
+    display: flex;
+}
+.ul1 li{
+    padding-left: 70px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #35414B;
+    list-style: none;
+}
+.button1{
+background: #ECE6FF;
+border-radius: 4px;
+}
+.logo{
+    padding: 30px 90px;
+}
+
+.ul2{
+    display: flex;
+}
+.ul2 li{
+    padding-left: 150px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #35414B;
+    list-style: none;
+}
+.button1{
+    display: flex;
+    position: absolute;
+    top: 28px;
+    right: 100px;
+background: #ECE6FF;
+color: blue;
+border-radius: 4px;
+padding: 7px;
+border: none;
+}
+.main2{
+    margin-top: 60PX;
+    display: flex;
+    justify-content: center;
+
+}
+.button2{
+background: #81C43B;
+border-radius: 100px;
+padding:0px 20px;
+color: white;
+border: none;
+
+}
+.button3{
+background: #F2F9EB;
+border-radius: 0px 100px 100px 0px;
+padding: 10px;
+
+border: none;
+}
+.h11{
+font-weight: 600;
+margin-top: 20px;
+font-size: 64px;
+line-height: 65px;
+text-align: center;
+color: #35414B;
+}
+.p11{
+margin-top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #4E5A65;
+}
+.mail11{
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #E1E5EA;
+border-radius: 7px 0px 0px 7px;
+padding: 15px;
+height: 45px;
+width: 280px;
+
+}
+.button4{
+background: #794CFF;
+border: 1px solid #794CFF;
+border-radius: 0px 4px 4px 0px;
+padding: 13px;
+}
+.email1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imgg1{
+background: #FFFFFF;
+
+}
+.image1{
+margin-left: 150px;
+}
+/* header end  */
+.main2{ 
+}
+.para22{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+color: #4E5A65;
+
+
+}
