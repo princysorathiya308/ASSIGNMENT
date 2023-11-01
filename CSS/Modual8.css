@@ -26,6 +26,9 @@
     color: #35414B;
     list-style: none;
 }
+.bars{
+    display: none;
+}
 
 .button1 {
     background: #ECE6FF;
@@ -295,7 +298,7 @@ color: #4E5A65;
     align-items: center;
     justify-content: space-around;
  }
- .flex1{
+ .flex1,.flex2,.flex3{
     display: flex;
     gap: 10px;
  }
