@@ -1,38 +1,53 @@
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
 
-    .main1,.button1,.ul1,.ul2{ 
+    .main1,
+    .button1,
+    .ul1,
+    .ul2 {
         display: none;
-    
+
     }
-    .bars{
+
+    .bars {
         display: block;
 
     }
-    .nav{
+
+    .nav {
         justify-content: center;
         /* gap: 90px; */
     }
-    .h11{
+
+    .h11 {
         font-size: 50px;
     }
-    .image1{
+
+    .image1 {
         width: 100%;
         margin: 0 auto;
     }
-    .image33{
+
+    .image33 {
         width: 100%;
     }
-    .container2{ flex-direction: column;}
-    .head{
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .head {
         width: 100%;
-        text-align: center;  
+        text-align: center;
     }
-    .con33{ width: 100%;
-flex-direction: column;
-text-align: center;
-gap: 30px;
+
+    .con33 {
+        width: 100%;
+        flex-direction: column;F
+        text-align: center;
+        gap: 30px;
     }
-    .cont33{
+
+    .cont33 {
         width: 100%;
         flex-direction: column;
         text-align: center;
@@ -43,46 +58,58 @@ gap: 30px;
         top: 30px;
         left: 20px;
     }
-    
+
     .logo22 {
         top: 30px;
         left: 220px;
     }
-    
+
     .logo23 {
         top: 30px;
         left: 410px;
     }
-    
+
     .logo24 {
         top: 30px;
         right: 380px;
     }
-    
+
     .logo25 {
         top: 30px;
         right: 180px;
     }
-    .word1{
+
+    .word1 {
         width: 50%;
     }
-    .imag4{
+
+    .imag4 {
         width: 50%;
     }
-    .button44{
+
+    .button44 {
         width: 90%;
     }
-    .container4{
+
+    .container4 {
         width: 100%;
         display: flex;
         flex-direction: column;
-text-align: center;
+        text-align: center;
     }
-    .contain51{ 
+
+    .contain51 {
         flex-direction: column;
-    
+
     }
-    .flex2,.flex3{
+
+    .flex2,
+    .flex3 {
         display: none;
     }
+    
+    .container55{
+        
+    }
+    
 }
