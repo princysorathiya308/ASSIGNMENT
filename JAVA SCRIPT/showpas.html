@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pasword</title>
+</head>
+
+<body>
+    <div class="userpwd">
+        <p id="ph" class="ps" oninput="handletransform()"> Enter Password : <input type="password" name="" id="pass"
+            oninput="handletransform()" class="pwd" placeholder="" onclick="show() "> </p>
+        <span id="sh" onclick="handlevalidation() ">Show</span>
+    </div>
+    <script>
+        function handlevalidation() {
+            let x = document.getElementById("pass");
+            if (x.type === "password") {
+                x.type = "text";
+                document.getElementById("sh").innerText = "Hide";
+            } else {
+                document.getElementById("sh").innerText = "Show";
+                x.type = "password";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
