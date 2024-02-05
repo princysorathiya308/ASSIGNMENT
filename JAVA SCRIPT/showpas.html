@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pasword</title>
-</head>
-
-<body>
-    <div class="userpwd">
-        <p id="ph" class="ps" oninput="handletransform()"> Enter Password : <input type="password" name="" id="pass"
-            oninput="handletransform()" class="pwd" placeholder="" onclick="show() "> </p>
-        <span id="sh" onclick="handlevalidation() ">Show</span>
-    </div>
-    <script>
-        function handlevalidation() {
-            let x = document.getElementById("pass");
-            if (x.type === "password") {
-                x.type = "text";
-                document.getElementById("sh").innerText = "Hide";
-            } else {
-                document.getElementById("sh").innerText = "Show";
-                x.type = "password";
-            }
+    <title>Create Password</title>
+    <style>
+        h1 {
+            font-size: 48px;
         }
 
-    </script>
-</body>
+        label {
+            display: inline-block;
+            font-size: 24px;
+        }
 
+        input {
+            padding: 4px 80px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+      <h1>Create Password</h1>
+      <label for="text">Enter Password :</label>
+      <input type="password" id="pw">
+      <br>
+      <br>
+      <label for="text">Show Password :</label>
+      <input type="checkbox" id="show" onclick="ClickOnMe()">
+   
+   <script>
+
+function ClickOnMe() {
+    let a = document.getElementById("pw");
+    console.log(a);
+
+    if (a.type === 'password') {
+        console.log(a.type);
+        a.type = 'text'
+    console.log(a.type);
+
+    } else {
+    console.log(a.type);
+
+        a.type = 'password'
+    console.log(a.type);
+        
+    }
+}
+   </script>
+</body>
 </html>
